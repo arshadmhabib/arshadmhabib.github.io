@@ -3,4 +3,26 @@
     margin: 0;
     padding: 0;
     color: white;
+
+}
+
+#about {
+  display: flex;
+  flex-direction: column; /* stack elements vertically */
+  align-items: center;    /* centers content horizontally */
+  justify-content: center; /* centers content vertically (if section has height) */
+  text-align: center;     /* centers text inside */
+  min-height: 100vh;      /* optional: makes the section fill full screen height */
+}
+
+#about .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about img.profile-pic {
+  max-width: 200px; /* control image size */
+  border-radius: 50%; /* optional: makes it round */
+  margin-bottom: 20px;
 }
