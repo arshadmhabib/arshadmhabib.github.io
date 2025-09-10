@@ -21,9 +21,10 @@
   align-items: center;
 }
 
-#about img.profile-pic {
+/* #about img.profile-pic {
   max-width: 500px; /* control image size */
   border-radius: 50%; /* optional: makes it round */
   margin-bottom: 20px;
-}
+} */
+
 
